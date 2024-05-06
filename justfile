@@ -13,3 +13,5 @@ build:
 
 install *deps:
     ./nvm_exec.sh yarn add {{ deps }}
+
+alias i := install
